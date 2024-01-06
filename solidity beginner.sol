@@ -3,9 +3,9 @@ pragma solidity 0.8.18;
 
 /*
        REQUIREMENTS
-    1. Your contract will have public variables that store the details of the coin (Token Name, Token Abbrev., Total Supply)
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    3. You will have a mint function that takes two parameters: an address and a value. 
+    1. The contract will have public variables that is used to store the details of the coin (Token Name, Token Abbrev., Total Supply)
+    2. The contract will have a mapping of addresses to balances (address => uint)
+    3. We will have a mint function that takes two parameters: an address and a value. 
        The function will then increases the total supply by that number and increases the balance 
        of the “sender” address by that amount.
     4. Your contract will have a burn function, which works the opposite of that of the mint function, as it will destroy tokens. 
